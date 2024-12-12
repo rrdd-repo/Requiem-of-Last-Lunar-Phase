@@ -1,2 +1,3 @@
 # Requiem-of-Last-Lunar-Phase
-Visual Novel developed for the Brackeys Game Jam 2024
+Sound novel developed for the Brackeys Game Jam 2024
+Link for the game: https://soraora.itch.io/requiem-of-last-lunar-phase
