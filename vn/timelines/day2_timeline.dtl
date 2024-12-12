@@ -1,0 +1,151 @@
+[style name="styledefault"]
+[music fade="0.0" volume="0.0"]
+if {gameplay} == true:
+	jump gameplay2
+set {day} = 2
+[background arg="res://vn/backgrounds/day2/day2room.png" fade="0.0"]
+[music path="res://vn/sfx/the-sound-of-cicadas-164768.mp3" fade="0.0" volume="6.0" bus="Cicadas"]
+I saw the moon, and it was ticking down. Something was approaching.
+As if the numbers were shed tears, raining through space down to earth like a hailstorm. I should not have stared into those numbers, I should not have absorbed it into my mind, where it'll writhe around without meaning.
+Let's not think about this for now, or at least the consequences of it. Let's brush my teeth, wash my hair, eat breakfast. Let's pour ourselves into our work and hobbies. Yes, it'll be much more manageable there.
+[music fade="0.0" volume="0.0"]
+[background arg="res://vn/backgrounds/day1/desk job.png" fade="1.0"]
+[music path="res://vn/music/day1/jazz-tune-186783.mp3" fade="1.0" volume="-6.0"]
+Maybe today is a good day to focus on work! It'll get my mind in the right place, keep my brain healthy anddddd... \
+*Oh no. They didn't assign me anything of substance at all.*
+Umm....maybe today's a good day to slack off and browse social media?
+label PhoneTree2
+- Me and my big boy over here having a grand old birthday party together! Happy 4th Birthday Matt! | Jess1s4M2ss
+	Oh wow, isn’t that Jess from high school? I thought he was 2 years younger than me… How did he already have a child??
+	jump PhoneTree2
+- ok so like i know my mom grounded me but with to the moon thing i got the phone from her expect morevid eos at the wednesday
+	I don’t know whether to cry or laugh, honestly. I'm glad I didn't use the internet like this as a kid, I'd be so embarrassed thinking about it now...
+	jump PhoneTree2
+- [Attached image of grumpy cat with two big bold letters saying “I HATE MY ALARM”] | JnfrGnzlz9212 
+	Sometimes I can’t tell if my coworkers are just using a bot to post these ancient memes, or if big ticking numbers are on everyone's mind right now...
+	jump PhoneTree2
+- ok so like i know my mom grounded me but with to the moon thing i got the phone from her expect morevid eos at the wednesday
+	Did this bot just steal that kid’s post???????
+	jump PhoneTree2
+- dont tell me we’re all going to die right before my graduation, why did this have to happen now?????????? were all of these 4 years wasted???
+	!!!!!!!!!!!!!!!!!! (They'd fire me if I screamed, better keep it in my mind for now)
+	jump PhoneTree2
+- I'm done scrolling for now.
+I feel...defeated.
+Those numbers in the sky don't quite mean anything yet, but the macabre visage burrowed into my eyes, casting a spell of fear I can't quite break. Maybe, this is some mass hallucination meant to distract us from something.
+Maybe I just need to learn to ignore it. Maybe I just need to get better at knowing *when* to put my head in the clouds...
+[sound path="res://vn/sfx/vibrating-45635.mp3" volume="-30.0"]
+*Bzzzzzt*
+[music fade="0.0" volume="0.0"]
+[music path="res://vn/music/day1/night-in-rio-bossa-nova-173449.mp3" fade="1.0" volume="-6.0"]
+hermes: HEY LOTUS they put a giant timer on the moon!!! do you think we're gonna die?!
+[sound path="res://vn/sfx/dissonant-piano-stinger-45559.mp3" volume="-5.0"]
+lotus: AHHHHHHHHH!!!!!!!
+hermes: oooh you're even more startled than me\
+i thought your head was too stuck in the clouds to notice anything above it \:pppp
+lotus: What do you mean! You always tell me that I'm the worrywart of our duo...
+hermes: truthfully, i am KINDA WORRIED, but i can tell by that quiver in your voice thats not the right thing to encourage! didn't you tell me you were making a game or something?
+lotus: ...I made a vaguely playable build of it last night. I hope you'll try it when I'm done.
+hermes: WOAH awesome \:DD i always wanted to make a game that plays like M*rio, but with guns as a kid\
+IDK why ure worried about the world, when ur doing something so cool!
+lotus: Isn't doing something cool that'll take a long time exactly why I should be worried?
+hermes: pfffffbtttbtttt.. thisll blow over, but if your game gets famous, that'll last forever! just forget about this stuff!
+I don't know what to say. I can't tell if she has a point, or if she's horribly naive.
+hermes: BTW lotiiiiii \
+are you going to the local today?
+lotus: I thought you were rooting on me to finish my game...
+hermes: awwwww but it's more fun with you there!!
+lotus: Sorry.
+I give an earnest reply, not quite sure where she's at mentally.
+hermes: that’s OK \
+i didn’t have time today either!!
+I can't ever trust her, can I?
+hermes: BUUUUT you know that controller you borrowed from me\
+i think it'd be easier if you gave it back to the TO instead of me.
+lotus: Hey....that controller wasn't yours, was it?
+Hermes - Last read\: XX\:XXPM
+Oh, Hermes..
+[music fade="0.0" volume="0.0"]
+[background arg="res://vn/backgrounds/day1/elevator.png" fade="0.5"]
+Luckily for her, my controller had been in my bag for the past few days, as I had been hoping to give it back to her next time I saw her. This makes it easy to drop it off at the local fighting game scene, it happens to be stuffed into the back of a library that sits directly on the way home.
+It's where Hermes and I became friends in the first place; sometimes I got the impression it was the only thing getting her out of her room back then.
+[background arg="res://vn/backgrounds/day2/outside.png" fade="0.8"]
+[music path="res://vn/music/day2/nature-birds-singing-217212.mp3" fade="1.0" volume="0.0"]
+Riding my bike out of work, I could swear less people are on the street than yesterday. The whole world has seemed a little bit emptier as the moon seemingly empties us.
+Due to the lack of the usual bustling noise of the streets, I'm able to eavesdrop without thinking into a small group of very young kids as I pass by.
+thechild: My mom was crying in the kitchen this morning after reading the news about the world ending.
+child2: How come everyone thinks the world is ending because of a timer? Couldn't it just be until the moon's birthday?
+I wonder if their innocence is making them stupider or smarter than all of us...
+[background arg="res://vn/backgrounds/day1/darkness.png" fade="0.0"]
+[music fade="0.0" volume="0.0"]
+I cut some corners, arrive at the library, and shuffle into a sealed room in the back with a handful of people already playing.
+[background arg="res://vn/backgrounds/day2/local.png" fade="0.7"]
+[music path="res://vn/music/day2/Our-Block.mp3" fade="1.0" volume="-6.0"]
+After a few minutes of being unable to find the tournament organizer, I figure that it wouldn't hurt to attend today, right? Some of my other friends did happen to show up, and were all registered into the bracket for our main game - a fancy fighting game named Étonnant Combate.
+I have a reputation for playing highly complicated characters who required a lot of practice, leaving me to lament that chasing other interests has left me rustier than I'd want. It's hard to pick between self-fulfilling hobbies, huh?
+I finish the first match a bit more narrowly than I'd usually want, but still holding out a win.
+I don't know my opponent well, so I reach out for a handshake only to see their head resting on their controller. They look more upset than I've ever seen them. I utter out "Good games." in a voice quieter than I had expected to come out of my mouth, but they slap my hand away from me. Sheesh!
+opponent: I just don't get it, man.
+The words slip out quickly and aggressively in a muttering tone from the dude's mouth. I wait for a second out of caution, and make a "hmm" sound out of genuine curiosity.
+[music fade="0.0" volume="0.0"]
+[sound path="res://vn/sfx/whoosh-noise-45477.mp3" volume="0.0"]
+opponent: DON'T YOU GET IT, DIPSHIT?! WHAT'S THE POINT OF TRYING TO GET BETTER IF WE'RE ALL GONNA DIE?!
+Ah.
+It was simple all along. Of course he'd be upset losing at what could be his very last local, maybe the very last *accomplishment* of his entire life. I stand up and silently back off to give him some space, but some people in the crowd begin shouting back.
+spectator: You gotta be stupid to think this isn't some sort of government thing. It's fear tactics, bro!!
+spectator2: My pastor told me this is the holy son's return, just as prophesized. We should all be happy.
+Despite even having the sympathy of knowing some of these people may have lacked an outlet to discuss this until now, I can't help but look down on their inability to let someone mourn. There's a lack of processing here - nobody is letting themselves process their own emotions, let alone others.
+[sound path="res://vn/sfx/wood-break-40011.mp3" volume="-15.0"]
+The echoes of tasteless chatter continues to bounce around the cramped room until suddenly being interrupted by a loud, piercing clatter of plastic on the floor.
+As I jolt back into reality, I look to see that my opponent had spiked his controller to the floor, cracks of plastic and springs falling out along with it.
+[sound path="res://vn/sfx/door-slam-160600.mp3" volume="0.0"]
+He silently stomps out of the room, slamming the door in a way that'll surely get him scolded by the nearest librarian.
+Slipping through the tension in the atmosphere, one of Hermes's friends approaches me, giving me some time to breathe in this tight, thin room.
+hermesfriend: samsaRa, have you been paying attention to the bracket at all?
+She refers to me with my corny gamertag from when I first began competing here, which makes me wince a little.
+lotus: Nuh uh.
+hermesfriend: It's M0ksha!
+Oh *god*. I shudder thinking about fighting him in this state.
+M0ksha is a perfectly kind person - an exemplary figure in our community in terms of enforcing positive mindsets, even - but he's been my personal demon for a few years now. We tend to have near-equal results, but something about the way he plays is the only one I haven't cracked yet.
+As we're sitting down next to each other a few minutes later, he gives me the most default of smiles - as if he simultaneously held not an ounce of malice, but hadn't even considered me as an opponent. We select the same characters as we always do, both of us probably thinking "here we go again".
+[music path="res://vn/sfx/button-mashing-32415.mp3" fade="0.0" volume="0.0"]
+The match starts with me attempting to set up traps, and creating space between us with projectiles, but he just keeps rushing me down. This is claustrophobic; I can't get a grasp on any advantageous positioning, and I keep inputting the wrong attacks each time I nearly do.
+I'm losing, maybe the most bluntly I have since our earlier days. But of course I'm losing, I *should* be losing if I haven't practiced up to my best. And in that sense, I actually begin to ease up and relax - accepting the reality I've been confronted with.
+The time I've been training to win has been spent on more interesting things than that, haven't they? Shouldn't I be satisfied with just this? As my opponent's win screen scrolls into view, my mental response of "no, duh" becomes obvious.
+[music fade="0.0" volume="0.0"]
+At least my opponent is understanding enough to give the controller to the T.O. whenever they show up, so I can get out of here now.
+[background arg="res://vn/backgrounds/day1/vague.png" fade="0.0"]
+[music path="res://vn/music/day1/Over-a-Mysterious-Island.mp3" fade="1.0" volume="0.0"]
+Getting home, I grab a frozen pizza out of my fridge, and text Hermes letting her know the controller was done. I don't tell her about what happened at the tournament today. I'm exhausted, and I've realized that more than anything, the numbers on the moon are noisy.
+It is information we are now all forced to process, presented vaguely and without warning. When I think about the barrage of perspectives I've seen over the course of the day, all the hints towards the "answer" to what any of this means begins to blend together.
+And so I stop thinking about it; it almost becomes easier to turn off my brain, when everything has become so sensationalized. I shake all these feelings out of my shoulders, and sit down to begin programming once again.
+[background arg="res://vn/backgrounds/day1/programming.png" fade="1.0"]
+Oooh, we can get to the game to restart now!\
+Oh, uhhh...the score doesn't restart.
+If I can't shoot for the stars in an EC tournament, my successor will have to start shooting for something else. My creation, you've become a living weapon, fulfill your purpose!!!\
+Killing an enemy crashes the game??? Really??
+But if they kill me, that also crashes the game! They thought they were immortal, but that's my reversal card! Ahahaahaaaaa!!! (cough, cough)
+I just wanna make a score system.....what's "decoupling"? I'm not even dating!! (coughs until i die and am buried 7 feet underneath the earth)
+I guess the moon isn't the only thing counting down. My children...on this blessed night you shall receive a health bar.
+That should be everything I wanted! Let's check the fruits of my labour.
+set {gameplay} = true
+do SceneManager.change_scene("res://minigames/common/main_minigame.tscn")
+[end_timeline]
+insert gameplay here
+label gameplay2
+[background arg="res://vn/backgrounds/day1/vague.png" fade="0.0"]
+[music path="res://vn/music/day1/Torment.mp3" fade="0.0" volume="0.0"]
+I didn't think I had it in me to get so much done tonight. And talking about health bars, my bones feel sore tonight, I must be tired...Coding and being into fighting games is a recipe for arthritis. Welp...you make the biggest first steps of your life in one category, and then take a bunch of steps back.
+It's grounded me back to earth to do so much, and yet so little. In my mind, by putting less of my time into playing games, and more into making them - I was doing something "meaningless" less, and something "meaningful" more.
+Yet, I missed the meaningless stuff so much. What gives? One day, I'd like to manage my time good enough to where I don't have to pick between them, but time has been expensive this past week. It's 2AM on my computer, and surely, there'll be only a handful more digits than that in the sky.
+[background arg="res://vn/backgrounds/day2/day2moon.png" fade="2.0"]
+Is there meaning in these numbers? Are they here to give me meaning? Does it show us how meaningless we are?
+I want to beat my bracket demon some day.... But finding motivation for one hobby is hard enough already. Let's take little steps for now. Nothing needs to be done so soon.
+[style name="chaptername"]
+[music fade="0.0" volume="0.0"]
+[music path="res://vn/sfx/church-bell-5993.mp3" fade="0.0" volume="0.0"]
+~ DAY 3 ~\
+I Burn my Candle Out
+[wait time="10.0"]
+set {gameplay} = false
+jump day3_timeline/

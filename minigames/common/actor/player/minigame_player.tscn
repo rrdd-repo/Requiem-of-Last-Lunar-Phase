@@ -1,0 +1,100 @@
+[gd_scene load_steps=10 format=3 uid="uid://n6xoqb3465je"]
+
+[ext_resource type="Script" path="res://minigames/common/actor/player/minigame_player.gd" id="1_vui6r"]
+[ext_resource type="PackedScene" uid="uid://cgg42wihwcuhe" path="res://minigames/common/bullet/player/spread/player_spread_bullet.tscn" id="2_ghirq"]
+[ext_resource type="AudioStream" uid="uid://bfoljhyry320j" path="res://minigames/common/sfx/player/death_player.wav" id="3_gf3l8"]
+[ext_resource type="Texture2D" uid="uid://b70m5qpkw32de" path="res://minigames/common/sprite/player/player_ship.png" id="3_ymmg3"]
+[ext_resource type="AudioStream" uid="uid://jj1gahwbdthl" path="res://minigames/common/sfx/player/shoot_player.wav" id="4_ugq5j"]
+[ext_resource type="AudioStream" uid="uid://dx6xv6o1h1o65" path="res://minigames/common/sfx/player/Explosion12.wav" id="5_oalsg"]
+[ext_resource type="AudioStream" uid="uid://bvxiirc1k5wlh" path="res://minigames/common/sfx/player/powerup.wav" id="6_3mu1v"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2l3u1"]
+radius = 32.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tnvhv"]
+radius = 16.0
+
+[node name="MinigamePlayer" type="CharacterBody2D" groups=["Player"]]
+collision_layer = 0
+collision_mask = 0
+script = ExtResource("1_vui6r")
+_max_health = 50
+_speed = 150.0
+_default_bullet_scene = ExtResource("2_ghirq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.5, -1.5)
+rotation = 1.5708
+scale = Vector2(2.15625, 2.15625)
+texture = ExtResource("3_ymmg3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_2l3u1")
+
+[node name="Hurtbox" type="Area2D" parent="."]
+collision_layer = 32
+collision_mask = 6
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+shape = SubResource("CircleShape2D_tnvhv")
+
+[node name="PlayerBulletSpawn" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(34, 0)
+
+[node name="HealthBar" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="HealthBar"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PlayerHealthLabel" type="Label" parent="HealthBar/CenterContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.797637, 0.0339857, 1, 1)
+theme_override_font_sizes/font_size = 48
+
+[node name="SFX" type="Node" parent="."]
+
+[node name="DeathSFX" type="AudioStreamPlayer2D" parent="SFX"]
+stream = ExtResource("3_gf3l8")
+bus = &"MinigameSFX"
+
+[node name="ShootSFX" type="AudioStreamPlayer2D" parent="SFX"]
+stream = ExtResource("4_ugq5j")
+volume_db = -4.0
+bus = &"MinigameSFX"
+
+[node name="HitSFX" type="AudioStreamPlayer2D" parent="SFX"]
+stream = ExtResource("5_oalsg")
+volume_db = 6.0
+bus = &"MinigameSFX"
+
+[node name="PowerupSFX" type="AudioStreamPlayer2D" parent="SFX"]
+stream = ExtResource("6_3mu1v")
+bus = &"MinigameSFX"
+
+[connection signal="area_entered" from="Hurtbox" to="." method="_on_area_2d_area_entered"]
+[connection signal="finished" from="SFX/DeathSFX" to="." method="_on_death_sfx_finished"]

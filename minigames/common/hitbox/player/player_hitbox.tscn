@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://be8bp3ko3432x"]
+
+[ext_resource type="Script" path="res://minigames/common/hitbox/hitbox.gd" id="1_ujvpr"]
+
+[node name="PlayerHitbox" type="Area2D"]
+collision_mask = 16
+script = ExtResource("1_ujvpr")

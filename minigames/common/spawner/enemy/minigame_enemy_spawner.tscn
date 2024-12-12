@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=3 uid="uid://c17bkql3x7krw"]
+
+[ext_resource type="Script" path="res://minigames/common/spawner/enemy/minigame_enemy_spawner.gd" id="1_rihqb"]
+[ext_resource type="PackedScene" uid="uid://cq6my12cndy0n" path="res://minigames/common/bullet/enemy/default/enemy_default_bullet.tscn" id="2_6g4lk"]
+[ext_resource type="PackedScene" uid="uid://b1daq226hv3c6" path="res://minigames/common/actor/enemy/minigame_enemy.tscn" id="3_8yqvq"]
+
+[node name="MinigameEnemySpanwer" type="Node2D"]
+script = ExtResource("1_rihqb")
+possible_bullet_scene = Array[PackedScene]([ExtResource("2_6g4lk")])
+spawnable_scene = ExtResource("3_8yqvq")

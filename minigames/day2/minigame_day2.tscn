@@ -1,0 +1,77 @@
+[gd_scene load_steps=7 format=3 uid="uid://dui8lvdxutb65"]
+
+[ext_resource type="Shader" path="res://shaders/main_minigame.gdshader" id="1_aeqyr"]
+[ext_resource type="Script" path="res://minigames/day2/minigame_day_2.gd" id="1_h0e6o"]
+[ext_resource type="PackedScene" uid="uid://n6xoqb3465je" path="res://minigames/common/actor/player/minigame_player.tscn" id="2_c5lnv"]
+[ext_resource type="PackedScene" uid="uid://b1daq226hv3c6" path="res://minigames/common/actor/enemy/minigame_enemy.tscn" id="4_v58a0"]
+[ext_resource type="PackedScene" uid="uid://cq6my12cndy0n" path="res://minigames/common/bullet/enemy/default/enemy_default_bullet.tscn" id="5_egbiv"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ly7xw"]
+shader = ExtResource("1_aeqyr")
+shader_parameter/resolution = Vector2(320, 180)
+shader_parameter/scan_line_amount = 1.0
+shader_parameter/warp_amount = 0.1
+shader_parameter/noise_amount = 0.03
+shader_parameter/interference_amount = 0.2
+shader_parameter/grille_amount = 0.05
+shader_parameter/grille_size = 1.0
+shader_parameter/vignette_amount = 0.6
+shader_parameter/vignette_intensity = 0.4
+shader_parameter/aberation_amount = 0.5
+shader_parameter/roll_line_amount = 0.0
+shader_parameter/roll_speed = 1.0
+shader_parameter/scan_line_strength = -8.0
+shader_parameter/pixel_strength = -2.0
+
+[node name="MinigameDay2" type="Node2D"]
+script = ExtResource("1_h0e6o")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ScoreLabel" type="Label" parent="CanvasLayer"]
+unique_name_in_owner = true
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -148.0
+offset_right = -68.9999
+offset_bottom = 23.0
+grow_horizontal = 2
+scale = Vector2(3.78095, 3.43514)
+text = "Score: 0"
+horizontal_alignment = 1
+
+[node name="TutorialLabel" type="Label" parent="CanvasLayer"]
+unique_name_in_owner = true
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -271.0
+offset_top = -36.0
+offset_right = -62.0
+offset_bottom = 39.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2.64, 2.64)
+text = "Move with Directional keys
+Shoot with Z
+Press R to Restart Game"
+horizontal_alignment = 1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+material = SubResource("ShaderMaterial_ly7xw")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MinigamePlayer" parent="." instance=ExtResource("2_c5lnv")]
+
+[node name="Enemy" parent="." instance=ExtResource("4_v58a0")]
+position = Vector2(676, -119)
+_default_bullet_scene = ExtResource("5_egbiv")
+
+[node name="Camera2D" type="Camera2D" parent="."]

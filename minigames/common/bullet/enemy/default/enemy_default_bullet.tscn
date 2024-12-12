@@ -1,0 +1,63 @@
+[gd_scene load_steps=9 format=3 uid="uid://cq6my12cndy0n"]
+
+[ext_resource type="Script" path="res://minigames/common/bullet/enemy/default/enemy_default_bullet.gd" id="1_7tty2"]
+[ext_resource type="PackedScene" uid="uid://ihrv1j85o0w" path="res://minigames/common/hitbox/enemy/enemy_hitbox.tscn" id="2_mshwr"]
+[ext_resource type="Script" path="res://minigames/common/bullet/bullet_data.gd" id="2_syftn"]
+
+[sub_resource type="Resource" id="Resource_ki7tp"]
+script = ExtResource("2_syftn")
+_initial_speed = 100.0
+_target_speed = 200.0
+_acceleration = 10.0
+_lifespan = 4.0
+_bullet_count = 1
+_spread_angle = 30.0
+_fire_rate = 0.2
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ckbe4"]
+radius = 20.0
+
+[sub_resource type="Curve" id="Curve_wj44l"]
+max_value = 4.0
+_data = [Vector2(0, 4), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_k5ss5"]
+colors = PackedColorArray(0.588937, 0.342552, 1, 1, 0, 0, 1, 1)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vbx0n"]
+radius = 16.0
+
+[node name="EnemyDefaultBullet" type="CharacterBody2D"]
+collision_layer = 0
+collision_mask = 0
+script = ExtResource("1_7tty2")
+_bullet_data = SubResource("Resource_ki7tp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ckbe4")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+position = Vector2(13, 0)
+scale = Vector2(2.64, 2.08)
+amount = 100
+preprocess = 0.1
+local_coords = true
+emission_shape = 1
+emission_sphere_radius = 1.0
+direction = Vector2(-1, 0)
+gravity = Vector2(98, 0)
+initial_velocity_min = 50.0
+initial_velocity_max = 50.0
+scale_amount_curve = SubResource("Curve_wj44l")
+color_ramp = SubResource("Gradient_k5ss5")
+
+[node name="EnemyHitbox" parent="." instance=ExtResource("2_mshwr")]
+position = Vector2(1, 0)
+damage = 10
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyHitbox"]
+position = Vector2(-1, 0)
+shape = SubResource("CircleShape2D_vbx0n")
+
+[connection signal="area_entered" from="EnemyHitbox" to="." method="_on_enemy_hitbox_area_entered"]

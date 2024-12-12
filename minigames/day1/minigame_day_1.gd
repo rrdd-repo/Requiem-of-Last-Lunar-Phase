@@ -1,0 +1,2 @@
+class_name MinigameDay1
+extends Node2D

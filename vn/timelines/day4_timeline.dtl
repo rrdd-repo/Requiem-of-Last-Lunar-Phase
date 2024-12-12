@@ -1,0 +1,109 @@
+if {gameplay} == true:
+	jump gameplayday4
+[background arg="res://vn/backgrounds/day4/day4room.png" fade="2.0"]
+[music fade="0.0" volume="0.0"]
+[music path="res://vn/sfx/the-sound-of-cicadas-164768.mp3" fade="0.0" volume="0.0"]
+[style name="styledefault"]
+set {day} = 4
+I wake up to the faint sound of ringing in the distance. I wake up to the sound of ringing in my own ears. I smell a faint sense of burning in the distance. In that sleepy state where everything feels far, far away, I am only able to draw the strength to pull my phone out of my pocket.
+label PhoneTree4
+- Mass riots across nation as controversy breaks into hysteria | PNN
+	Lawless apocalypse, yadda yadda. I wonder if they're gonna attribute every type of protest to this for a while...
+	jump PhoneTree4
+- Sign up | Vee is for Vegan Forums
+	Half of the links I'm clicking are dead, but this website stays up???
+	jump PhoneTree4
+- Bunkers nearby you | TheGovernment.gov
+	Bunkers sound nice, but my bed sounds nicer....I don't want to get out of bed.... Plus, I have to protect my computer....
+	jump PhoneTree4
+- Walmart lost $50,000T dollars in robbery scandals (They’ll be alright) | TimeIsMoney.gov
+	I think Hermes has already stolen that much in spicy nacho bags.
+	jump PhoneTree4
+- How to get your stimulus check: A Beginner’s Guide | NotTheGovernment.gov.lmao
+	Ugh...the stuff I'll have to think about if this moon thing blows over. Maybe its distraction is a blessing in disguise.
+	jump PhoneTree4
+- I'm done scrolling....
+Regardless of if the world is ending, the world has *already ended* in the sense that everyone has resigned themselves. I've received a few too many pep talks to give in at this point, though - I head out to work.
+[background arg="res://vn/backgrounds/day4/day4outside.png" fade="1.0"]
+[music fade="0.0" volume="0.0"]
+[music path="res://vn/music/day4/claude-debussy-arabesque-1-216748.mp3" fade="0.7" volume="0.0"]
+It is *hot* out today.
+Like, seriously the hottest it's been in years; as if the sun has taken up the moon's role of inducing fear on those below it while it sleeps. I don't have time to stop at the beach today, and if I did, it'd probably cook me into vegetable stew.
+The metal on my bicycle begins to sting from the absorbed heat, but the tantalizing nature of a promotion leaves my heart burning more than my flesh already is. I can't miss this.
+[background arg="res://vn/backgrounds/day4/officebuilding.png" fade="0.0"]
+I make it to my office, only to find a particular sign resting on the doorknobs.
+"Due to unforeseen circumstances, our building has shut down for the day. If you are here, we are sorry that you didn't receive our messages."
+Shit.
+lotus: IS THIS BECAUSE THEY STILL MESSAGE US OVER SPYKE?! OF COURSE THAT PLACE WOULD BE DOWN!!
+I realize with a pit in my stomach that with the damage I've already taken to get here, I can't just get home quick and be done with this. I hold my bicycle by the coldest parts of the leather handles, and begin to walk slowly through town to rebuild stamina.
+As I feel it, I notice that there's a small dent in the metal that rubs against my skin. Did I do that? No...oh! Hermes would've had to carry both me and my bike home last night!! How did she even pull that off...
+[background arg="res://vn/backgrounds/day4/day4outside.png" fade="0.0"]
+On closer inspection, this is more of a desert wasteland than an anarchist no man's land. It gives me pause, as I may have bitten too deep into internet conspiracy. It makes sense that the average person is probably mourning with their family right now.
+[background arg="res://vn/backgrounds/day4/citypark.png" fade="0.0"]
+After a while, I arrive at a part of town that the image of is burnt into my mind. I find a spot in the shade to cool my bike down, and take a seat where I vaguely recall sitting once before.
+A long time ago, I would come here with other kids--who maybe acted or looked like some aspect of Hermes, but weren't quite here--to play outside. I've known her for quite a long time, but lost touch with those other people; while I've only become more of a recluse with age, she's only come out of her shell.
+If tomorrow comes, I'd like to replace those dusty old memories with new ones of her, though I'd never live up saying that out loud around her.
+[background arg="res://vn/backgrounds/day4/sky.png" fade="1.0"]
+Glancing up above, memories of reality begin to tinge with memories of fiction. I began to remember my little childish routines; waking up in the weekend mornings, playing video games until I had to go out, and naturally imagining how I could make a game out of the little environments I passed by.
+Maybe that was the origin of my strange over-imagination. And that skill is still in me, as I can still easily visualize pixelated planes flying up above, careening and tightly jetting between buildings.
+A voice--one that creaks and slithers through the vessels of my body--leaks into my mind, and out of my mouth. At first, I'm unable to understand the simple words that passed through my mind, but my "imagination" speaks aloud again.
+lotus2: Hey.\
+You should probably make a video game.
+I think back to last night, and how much I had shuffled and squirmed at doing anything productive, how truly difficult it felt in that moment.
+lotus: It's hard. It's really, really hard. I don't feel like my body can bear the weight of this anymore.
+lotus2: You like them, though! You think about them a lot! You think about them like a nerd. Nerds are good at this sorta thing. You should do it.
+lotus: These are words my brain is borrowing from a distant memory of Hermes, aren't they? \
+But--and I'm not trying to sound cynical here--is there a point to even trying to make something, if nobody might even get the chance to see the finished product?
+lotus2: Yes.
+Sigh. It's been long enough, maybe it's time to go home, and put an end to this.
+[background arg="res://vn/backgrounds/day4/vagueday4.png" fade="1.0"]
+[music fade="0.0" volume="0.0"]
+[music path="res://vn/music/day4/menuet-claude-debussy-187849.mp3" fade="2.0" volume="0.0"]
+I step into the door--no, I step into the ring. To avoid all distractions, I check my phone before doing anything. Hermes hasn't texted me today; I shoot her a "hope you're okay, luv you ^_^", before flinging my phone into the furthest recess of my bed.
+[background arg="res://vn/backgrounds/day4/programmingday4.png" fade="0.0"]
+I stand in front of my computer - my only weapons being my bare knuckles, and a caffeine-loaded energy drink. Turn On. That's a command.
+I click some buttons, and face my upcoming battle's HUD with completely unfounded confidence. I make a keystroke, and then another keystroke.
+My fingers begin to glide across the keyboard, effortlessly as if a subconscious muscle is fighting back against a predator. My remaining mind realizes that my hands have caught on an updraft, and if I were to stop typing at any point, they would not catch it for the rest of the night.
+It's not without turbulence; each and every time I run into a problem, I have to kick into manual gear, and prevent myself from giving up at the mere sight of it. Luckily, the world is at my side - the thought of it all ending keeps me going, and the websites I procrastinate on are all down.
+And so I write code, and I write some more, and I just keep on writing until the part of me that's human wakes back up, surprised to open the game and see all these new features. The other me will be so proud that I even figured out how to program a boss fight...
+Now!!!! Let my experiment live!!!!!!
+[music fade="0.0" volume="0.0"]
+set {gameplay} = true
+do SceneManager.change_scene("res://minigames/common/main_minigame.tscn")
+[end_timeline]
+!!! INSERT GAMEPLAY !!!!!!!
+label gameplayday4
+[sound path="res://vn/sfx/windows-error-sound-effect-35894.mp3" volume="0.0"]
+[background arg="res://vn/backgrounds/day4/error1.png" fade="0.0"]
+.............................
+[background arg="res://vn/backgrounds/day4/error2.png" fade="0.0"]
+[sound path="res://vn/sfx/manyerrors.mp3" volume="0.0"]
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!
+The immense whirlwind of emotions in my heart storm and storm until they pass by. I couldn't do it, Lotus; I can't do it, each and every one of me. There's just not enough time, time has officially ended. I can't finish a game in time, let alone a prototype.
+But they say that when one dies, they feel a weight lift off them; the feeling of every single one of their responsibilities floating away, none of it mattering any longer in the moment. No matter what happens tonight, this is where I truly died.
+I may have even obsessed with completing something up to this point! But it's over. The files corrupted. I have to restore a back-up from 2 days ago. There's absolutely no way I can finish anything of value before midnight. And that's my relief. Goodnight everyone, goodnight world. Goodnight, stupid video games.
+[wait time="0.5"]
+I walk to my bed.
+[background arg="res://vn/backgrounds/day1/darkness.png" fade="1.0"]
+I put on my shoes.
+I don't normally wear shoes before going to bed.
+I step out; the night only lit by the faint silhouettes of fires in the distant urban districts.
+The sound of the floor shifts from the hard edge of concrete, to the soft pitter patter of shoes in sand. You could never tell where you were without it; the usual guidance of the seagull's mews fails to light the sky on such short notice at this time of night. I squint, and stare into the night-sky one last time.
+[background arg="res://vn/backgrounds/day4/day4moon.png" fade="1.0"]
+Ahhh....
+The bright hues of supernatural LED burn deep into the back of my eyes.
+I promise you, I processed all this good, and I've accepted it even better. I'm ready.
+But...
+lotus2: I'm greedy.
+I haven't spent my time good enough. Ever, really. I don't know if I've accomplished anything.
+And maybe that's my fault. Maybe I should've tried harder a bit sooner.
+So I'll accept any outcome, but...
+\if I had it my way, I'd delay my alarm, even just a little bit.
+I'll wake up later.
+[style name="chaptername"]
+[music path="res://vn/sfx/church-bell-5993.mp3" fade="0.0" volume="0.0"]
+[background arg="res://vn/backgrounds/day4/epiloguetransition.png" fade="8.0"]
+~ EPILOGUE ~\
+Requiem of Last Lunar Phase
+[wait time="10.0" hide_text="false"]
+jump epiloguetimeline/

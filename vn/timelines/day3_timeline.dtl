@@ -1,0 +1,121 @@
+[style name="styledefault"]
+[music fade="0.0" volume="0.0"]
+[background arg="res://vn/backgrounds/day3/day3room.png" fade="0.0"]
+[music path="res://vn/sfx/the-sound-of-cicadas-164768.mp3" fade="0.0" volume="0.0"]
+Maybe something clicked in me overnight; maybe I just absorbed the advice I got from Hermes, but I don't feel afraid anymore. No matter what's going on, I can't get the thought of just going back home, and finishing my video game, out of my mind. It's completely overwritten my survivor's instinct.
+Maybe it's even taken over my entire brain; I've never daydreamed this much before. I stare towards the sun, and I see numbers of binary code running across it. I picture low-poly seagulls, and the horizon is shaded with a bad CRT filter. ...Makes me wish I had the real thing.
+[music fade="0.0" volume="0.0"]
+[music path="res://vn/music/day1/jazz-tune-186783.mp3" fade="0.0" volume="-6.0"]
+[background arg="res://vn/backgrounds/day1/desk job.png" fade="0.5"]
+[sound path="res://vn/sfx/power-up-sparkle-1-177983.mp3" volume="-30.0"]
+So I can take work! Throw whatever situation you can find at me, and I'll catch it head-on, and score a home run! (Editor's note\: Lotus knows nothing about sports.)
+My aspirations have become my entire world, and my problems can only hope but claw to become a fracture of what my psyche processes in a day. ..I do have to get this paperwork done, though. There's a lot of it today, huh? Whatever, I can sign stuff while idly browsing the news online.
+label PhoneTree
+- A farewell. [Thumbnail of a VTuber greyed out over a black background] | Kawaikunaijo [NotAlive EN]
+	I kinda missed out on this whole trend.. And maybe if the trend is falling off the edge of the wilting earth, it'll miss out on me, too.
+	jump PhoneTree
+- “A Santa da Noite” releases unfinished EP after recent events - “We just wouldn’t have the time to finish it” | Spotted.com
+	I guess there's always the chance nobody sees my game other than me, huh? Something reassures me it'll turn out a little kinder than that.
+	jump PhoneTree
+- The 7 stages of grief - Why there’s not enough time to reach the last | The Therapists’ Hole
+	I wonder if I'm at denial or bargaining?
+	jump PhoneTree
+- I wish I could see my child one last time | BotArticles.io
+	...
+	jump PhoneTree
+- Internet filled with fake articles after international event | BOE News
+	*After*? They should hire me as a journalist.
+	jump PhoneTree
+- I'm done scrolling for now.
+Hours of letting my bursting energy rattle around in my head with nowhere to direct it--other than the same lifeless computer interfaces--ends up draining me. Unfortunately, I don't know if I'll be taking home that optimism.
+[background arg="res://vn/backgrounds/day1/elevator.png" fade="1.0"]
+Boarding the elevator, it's hard not to notice the shifting atmosphere day after day. Not only are there less people, but the remaining co-workers manage to cramp the elevator with an anxious, shaky tension. They're all rushing home to something or someone, to give their remaining days some much needed meaning.
+I hear people in the back whispering the plans to their ambiguously existent weekends, as well as the same strange sort of rumours I've heard all week.
+I don't try to listen in this time, or maybe it's that I can't listen in--my mind has leveled out to a fizzling static that doesn't know where to go--and this elevator is too slow for it right now.
+[music fade="0.0" volume="0.0"]
+[background arg="res://vn/backgrounds/day2/outside.png" fade="0.5"]
+I rush out of the building and begin biking straight home.
+[background arg="res://vn/backgrounds/day1/programming.png" fade="0.0"]
+I made so much progress yesterday, returning to this is almost daunting! I've gotten so much of the core bits down, I know what's left comes down to a whole lot of the more technical work I had left for last.....It'll be okay though, right?
+"Oh, this is hard...I dunno if I can do this..." my subconscious vaguely thinks as my fingers trail over to my mouse, clicking on random tabs on my computer screen. "Let's just browse the internet, and see if anything's new there", an even vaguer force in my subconscious takes control.
+- Services shutting down all over the world thanks to new “Moon Crisis” | [This link redirects to nothing]
+	.....Getting information is only gonna get harder, huh...
+[wait time="1.0"]
+The holes in my attention span have only been opened wider and wider by this arduous process. I'm once again reminded why my ideas for video games have stayed as just ideas floating in my mind for so long.
+My mind dreaming and dreaming, boundaries falling apart what's in front of me, and the dancing nothingness in my head. Maybe all my motivation burnt up in the burst of energy I exuded in yesterday's work, or maybe I just need better medication. It's been fourty minutes, and I've written eight lines of code.
+[sound path="res://vn/sfx/vibrating-45635.mp3" volume="-20.0"]
+If I get really conscious about my thoughts, maybe I can get a ninth done soon. \
+...Nope. It's not coming out. My hands are not reaching the keyboard, and my brain is not reaching its stem. *sigh*
+I suddenly jut back into a sense of place, as I realize that my phone has been ringing for a while now. I pick up the call, hearing the pleasant sound of Hermes's voice for the first time in a while.
+[music path="res://vn/music/day1/night-in-rio-bossa-nova-173449.mp3" fade="1.0" volume="0.0"]
+hermes: Hey, it's your favourite! I thought you might be down cuz of the news, and I was as well, sooooo I'm at a club. Wanna show up?
+lotus: I was working on something, but....eh...maybe I wasn't working on something.
+hermes: You sound tired out of your goddamn mind. Are you sure you could even drive here?
+lotus: I don't have a car. I'm sure I'd be fine getting over there, though.
+hermes: Don't tell me you're gonna drive to a club with a bicycle?! Do you know how uncool you'll make us look?
+lotus: You don't care that much about looking cool, be honest!
+hermes: bweeehh.
+She makes a stupid noise, as if to force me to imagine her sticking her tongue out.
+hermes: Anyways, show up or don't! I'll be here for like, another hour. Bye Bye Loti!!
+[music fade="0.0" volume="0.0"]
+[background arg="res://vn/backgrounds/day3/nightclub.png" fade="1.5"]
+Ehh.... If my brain is in this non-productive of a state, there's no fault in me going, is there?
+The address she had given me was more of a night bar than a night club; I knew she didn't party like that. It's a tidy and small enough for me to immediately find my way to sitting next to her.
+[music path="res://vn/music/day3/muffled goodmorning.mp3" fade="0.0" volume="0.0"]
+hermes: I'll order you a drink tonight, but only this once, okayy?? What do you want!!
+lotus: I don't drink, I'll have some orange juice.
+hermes: Daaaring, aren't we? Can you pour some into my beer glass? My Dad used to use orange juice to dilute alcohol, when he first introduced it to me!
+lotus: I didn't know you drank so much alcohol in the first place. Why are you here, anyways?
+hermes: Honestly? I discovered this place while applying for jobs, and ended up scoring a job interviewer to try bar-tending...And the place just looked so nice, I thought I'd try it even if they rejected me!!
+lotus: Sounds more relaxing than the loud noise and phone calls of an office job. I guess I shouldn't complain too much when I've had some decent stability for once, though...
+hermes: Yeah, plus you can play browser games on your computer when you're done! I basically simulate playing S***r S***h F***h * in my head whenever I'm busy sweeping the lunchroom at the local High School.
+lotus: The club *and* the school? I'm sorry, Hermes, but if you're applying for this much, home life must've gotten worse than since I last heard.
+hermes: I mean, yeah, but try not to worry too much about it right now. I'm not thinking about it either.
+She sticks out her tongue, but I'm not buying the look this time around. She's clearly has as much on her mind as the beer is letting her think.
+hermes: I've been saving all this money in the back to see if I can achieve all my hopes and dreams forever!!! And then you'll be soooo jealous of me, you'll have to make five games a week to keep up. Once I move to America, you're FINISHED!!!
+lotus: America!? Why America?
+hermes: Ever since I was a kid, and my dad took me to New York, I've wanted to go there. When I close my eyes, I can still see those mesmerizing neon lights... And plus, the adult side of me knows the new opportunities I'd have there as well.
+I see...All this time, I'd been stagnant. Satisfied with the dingy living situation I've had in my apartment. Meanwhile, Hermes is bursting with ambition.
+lotus: If you move to A-America, then how will I get to see you??
+What a kiddy question to fall out of my mouth without thinking. I've kept up with plenty of friends online just fine.
+hermes: Then just come with me, you dummy!!
+Uh oh..I'm gonna freak out thinking about the implications of that later. I let out a tense giggle. Without hesitating, she laughs loudly in response as if I said something funny.
+[wait time="0.8"]
+lotus: Hey...can I rest on your arm? I'm feeling all weighty.
+[sound path="res://vn/sfx/touch.mp3" volume="6.0"]
+She shows no reluctance at pulling me onto her shoulder.
+hermes: Doing nothing but computer-work will do that to you. I'll take you bowling next week, Loti!
+lotus: That's if there is a next week, Hermes.
+I say it with a blunt, low-emotion voice that I didn't think sounded too depressed, but she looks at me as if I had said something very wrong.
+Sometimes I think that Hermes is much tougher than I am, but I felt as if I had seen a glimpse that maybe, she was even more of a scared animal than I was.
+After I mutter an apology under my breath, she takes a sip of the remainder of my untouched orange juice as tax, and begins talking again with an energy as if nothing happened.
+hermes: I wanna take you to more places if I can, so this is just the start! This bowling place me and my Dad used to go as a kid is around the corner. I've been feeling nostalgic for it, but I hope you can get something out of it too - maybe it'll remind us of the Vii game we used to play at your house as a kid.
+hermes: Honestly? When I was little, I'd hang out with just about anyone if they owned some games I didn't. A lot of those dudes only ended up being mean to me in ways that set me up to get sick of being around people in general, but I STILL think some of those expensive arcade games were worth it....
+[background arg="res://vn/backgrounds/day3/nightclubsleepy.png" fade="10.0"]
+hermes: I always knew you were a special friend beyond that, though, at least much more special than some of the other kids. Or at least I hope I did! I think I might've been a bad person as a kid, I used to get really angry, and I'd always play dirty at scho----
+Despite how I had only nuzzled my way up closer to her since the beginning of the conversation, she was beginning to sound very, very far away. My eyes naturally rested themselves as if to focus further, and my whole world went out shortly after.
+[wait time="5.0"]
+[music fade="0.0" volume="0.0"]
+[background arg="res://vn/backgrounds/day3/day3nightroom.png" fade="3.0"]
+[music path="res://vn/sfx/crickets-17862.mp3" fade="1.0" volume="0.0"]
+I wake up in my bed, and nod over to my clock. It's 3AM in the morning.
+lotus: W-when did I get here, I don't remember going to sleep....
+After nodding back and forth for a few seconds, it all rushes back to me. The orange juice's aftertaste, and the vague sense of Hermes holding me.
+lotus: Was all of that...a dream??
+No, stupid! It couldn't be, it all felt too real and mundane. Suddenly, a tiny LED light flickering on my phone catches in the edge of my vision. I move my hand around in the dark until it lands on it, and see I received a text message about two hours ago.
+hermes: haaaaaai!!! you fell asleep on my shoulder, so i decided to take you home\
+normally, that only happens to me with dudes who drink a lot!! either way it was a BIT OF A STRUGGLE but!!!! i got you home alllll in one piece and found your pockets in your keys
+hermes: thanks for the night sleepyhead!! \:pppp\
+see you tomorrow
+Ignoring that I know for a fact she doesn't hang out with dudes like that, I begin to process the message. I slowly get out of bed, and walk over to the windowsill again.
+[background arg="res://vn/backgrounds/day3/day3moon.png" fade="1.0"]
+For some reason, I feel a deep, ravaging sadness in the bottom of my gut. I realize this isn't even primarily because of the moon.
+I feel...really bad that I didn't get to say thank you and goodnight to Hermes. Damn. I think I like her. Did I not realize I liked her until those emotions became a roaring negative inverse? I must have a pretty poor grasp on my own head.
+If the world really is gonna end, I should probably tell her how much I care about her *before* that happens. May the sun give me strength tomorrow...
+[music fade="0.0" volume="0.0"]
+[style name="chaptername"]
+[music path="res://vn/sfx/church-bell-5993.mp3" fade="0.0" volume="0.0"]
+~ DAY 4 ~\
+Squishy
+[wait time="10.0"]
+jump day4_timeline/

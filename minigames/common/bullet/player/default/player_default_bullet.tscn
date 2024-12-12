@@ -1,0 +1,68 @@
+[gd_scene load_steps=10 format=3 uid="uid://uyeb0l3yidlj"]
+
+[ext_resource type="Script" path="res://minigames/common/bullet/player/default/player_default_bullet.gd" id="1_5pqo8"]
+[ext_resource type="Script" path="res://minigames/common/bullet/bullet_data.gd" id="2_q6gki"]
+[ext_resource type="PackedScene" uid="uid://be8bp3ko3432x" path="res://minigames/common/hitbox/player/player_hitbox.tscn" id="3_2xy4n"]
+
+[sub_resource type="Resource" id="Resource_xws2x"]
+script = ExtResource("2_q6gki")
+_initial_speed = 500.0
+_target_speed = 500.0
+_acceleration = 0.0
+_lifespan = 0.5
+_bullet_count = 1
+_spread_angle = 30.0
+_fire_rate = 5.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vsd2t"]
+radius = 16.0
+
+[sub_resource type="Curve" id="Curve_mawh0"]
+max_value = 4.0
+_data = [Vector2(0, 4), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_63p5q"]
+colors = PackedColorArray(0.885871, 0.000284164, 0.801901, 1, 1, 1, 1, 1)
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_82hj2"]
+size = Vector2(5, 5)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_31ivd"]
+radius = 22.0
+
+[node name="PlayerDefaultBullet" type="CharacterBody2D"]
+collision_layer = 0
+collision_mask = 0
+script = ExtResource("1_5pqo8")
+_bullet_data = SubResource("Resource_xws2x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_vsd2t")
+
+[node name="SpriteGroup" type="Node2D" parent="."]
+unique_name_in_owner = true
+scale = Vector2(4.7339, 5.2815)
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="SpriteGroup"]
+amount = 100
+preprocess = 0.1
+local_coords = true
+emission_shape = 1
+emission_sphere_radius = 1.0
+direction = Vector2(-1, 0)
+spread = 0.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 50.0
+initial_velocity_max = 50.0
+scale_amount_curve = SubResource("Curve_mawh0")
+color_ramp = SubResource("Gradient_63p5q")
+
+[node name="Sprite2D" type="Sprite2D" parent="SpriteGroup"]
+texture = SubResource("PlaceholderTexture2D_82hj2")
+
+[node name="PlayerHitbox" parent="." instance=ExtResource("3_2xy4n")]
+damage = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerHitbox"]
+shape = SubResource("CircleShape2D_31ivd")

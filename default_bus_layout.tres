@@ -1,0 +1,44 @@
+[gd_resource type="AudioBusLayout" load_steps=5 format=3 uid="uid://bd5elhpargdcp"]
+
+[sub_resource type="AudioEffectHighPassFilter" id="AudioEffectHighPassFilter_yacn0"]
+resource_name = "HighPassFilter"
+resonance = 0.7
+
+[sub_resource type="AudioEffectReverb" id="AudioEffectReverb_06xeg"]
+resource_name = "Reverb"
+room_size = 0.2
+spread = 0.6
+dry = 0.7
+
+[sub_resource type="AudioEffectHighPassFilter" id="AudioEffectHighPassFilter_qqom7"]
+resource_name = "HighPassFilter"
+resonance = 0.7
+
+[sub_resource type="AudioEffectReverb" id="AudioEffectReverb_1nho5"]
+resource_name = "Reverb"
+room_size = 0.2
+spread = 0.6
+dry = 0.7
+
+[resource]
+bus/0/volume_db = 1.06049
+bus/1/name = &"MinigameMusic"
+bus/1/solo = false
+bus/1/mute = false
+bus/1/bypass_fx = false
+bus/1/volume_db = -6.24739
+bus/1/send = &"Master"
+bus/1/effect/0/effect = SubResource("AudioEffectHighPassFilter_yacn0")
+bus/1/effect/0/enabled = true
+bus/1/effect/1/effect = SubResource("AudioEffectReverb_06xeg")
+bus/1/effect/1/enabled = true
+bus/2/name = &"MinigameSFX"
+bus/2/solo = false
+bus/2/mute = false
+bus/2/bypass_fx = false
+bus/2/volume_db = -12.4611
+bus/2/send = &"Master"
+bus/2/effect/0/effect = SubResource("AudioEffectHighPassFilter_qqom7")
+bus/2/effect/0/enabled = true
+bus/2/effect/1/effect = SubResource("AudioEffectReverb_1nho5")
+bus/2/effect/1/enabled = true

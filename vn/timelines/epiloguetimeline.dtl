@@ -1,0 +1,35 @@
+[style name="styledefault"]
+[music fade="0.0" volume="0.0"]
+[music path="res://vn/music/day1/sea-and-seagull-wave-5932.mp3" fade="0.0" volume="0.0"]
+[background arg="res://vn/backgrounds/day1/darkness.png" fade="0.0"]
+The ocean pounds away at the edge of the sand, hammering away at us like we're nails, already placed into coffins.
+[background arg="res://vn/backgrounds/epilogue/beachevening.png" fade="19.0"]
+But the sun looms deep into the sky, only barely out of reach; our perception that it exists reminds us that we are alive.
+One by one, we begin to remember we are breathing, our lungs are alive, our muscles are alive, our spirit is alive.
+To live expecting to die is death itself.
+Seize your body and spirit, and allow yourself to think once more.
+[background arg="res://vn/backgrounds/epilogue/beachevening2.png" fade="3.0"]
+[sound path="res://vn/sfx/power-up-sparkle-1-177983.mp3" volume="0.0"]
+hermes: WOOOOOOO!!!! WE LIVED!!! Come on, Loti! Don't act like we were scared this whole time!!!
+lotus: ...Is it true that the timer began to count into the negatives last night?
+hermes: I guess we're just living with this now! No need to be afraid of a broken clock, it's only right twice a da--
+lotus: You mean once a night?
+I chime in with an oddly well-timed pun that makes Hermes cover her face with her cap in shame.
+hermes: You doofus...this moon stuff is really serious, you know?! The scientists still don't know what this is!! It's the biggest mystery in human history since like...the pyramids!!
+She gives me a gentle little shove, but right as a I take a sip of my coconut water, getting a little spill on my shirt. She gives me a sheepish grin--as if to apologize without verbalizing it--as she helped me wipe it off with a napkin.
+Damn...I was too distracted to say anything to her yesterday, even though every sign in the world had told me yesterday was my last chance. I shouldn't mess up this extra opportunity!! But now that it doesn't feel like there's a time limit on my very existence, it's difficult to conjure the confidence to actually do it...
+lotus: Jeez!! I wonder if the laundromats are open again - they closed because of everything going on the past week freaking everyone out..I'm gonna need to wash my clothes after wearing the same pair all week.
+hermes: Eww!!! Blehh!! You're icky!!
+She swats at me politely, but this time I manage to keep my coconut water out of her wrath's way. We both giggle and smile together for a second, before an awkward silence fills the air. After a moment, she speaks up with a shift in tone.
+hermes: You know, I've been working all these odd-jobs recently just to get money, and this whole thing had been hard on me. I was sitting here, thinking to myself 'if we're all gonna die, what was the point of all that effort?!'.
+hermes: And I get the existentialist stuff 'we're all gonna die some day blah blah blah', but for me, it was just hard to motivate myself to do...anything. In the face of such an obvious threat, obviously. So I didn't. I sat around all week.
+To me, this doesn't just sound reasonable, it maybe makes more sense than however I've been coping. I try my best to utter something that isn't stupid in reply.
+lotus: A lot of us are set back right now. Let's not dwell too much on it.
+It was something my own mother had said to me during covid; I repeated it back to Hermes as if that advice ever actually helped me cope. Maybe there's no good advice for a situation like this. We can only be thankful it lasted just one week.
+One last look into the bleating hot sky, my eyes narrowly avoiding the direct heat of the sun itself. The summer heat feels like it could never, ever end as it leaves such an imposing imprint across my body and mind. But the heat comes and goes with day and night, season after season, infinitely and forever.
+Why didn't I believe it'd come back? Probably because the idea of living to fulfill any achievement felt distant to me. I've always been a screw-up with kinda thing. 
+Believing the sun and moon will come back each day and night, for the rest of my life, is to believe that time will pass until I can finish something.
+I will believe in the tomorrow that keeps coming.
+I will believe in the yesterdays that are meaningless without their tomorrows.
+And even more, I will believe in the todays that bear no fruit.
+do SceneManager.change_scene("res://misc/main_menu/credits_scene.tscn")

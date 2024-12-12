@@ -1,0 +1,102 @@
+[style name="styledefault"]
+if {gameplay} == true:
+	jump gameplay1
+else:
+	set {day} = 1
+	[background arg="res://vn/backgrounds/day1/beach.png" fade="0.0"]
+	[music path="res://vn/music/day1/sea-and-seagull-wave-5932.mp3" fade="1.0" volume="0.0"]
+	Time played out like a dream underwater this morning.
+	The waves crash in slow rhythms across the shore.
+	They come and go louder than I've ever seen before.
+	I can vaguely hear seagulls circling far above me if I focus in on it.
+	The loving embrace of the sand sticks to my skin no matter what.
+	Whenever I get up early, I try to stop at the beach on my way to work. I can't help but think back to my weekend, spent mostly here more than anywhere else, \
+and I had to lament that my job had taken the opportunity to continue wallowing here.
+	It's as if the beginning of the week was peeling the sun away forever. \
+Sometimes, sitting in those windowless desk chairs makes me feel like I can't trust if the sky will ever even come back....
+	So it's only natural I want to soak up as much of it as I can.
+	[sound path="res://vn/sfx/shortvibration.mp3" volume="6.0"]
+	*Bzzzt Bzzzt Bzzzt*
+	[background arg="res://vn/backgrounds/day1/desk job.png" fade="0.1"]
+	[music fade="0.0" volume="0.0"]
+	[sound path="res://vn/sfx/door-slam-160600.mp3" volume="0.0"]
+	....Damnit. I always set timers for myself, just to keep myself on pace. This time, I was about to be late for work, having to run off after getting lost in the sunny sky.
+	[music path="res://vn/music/day1/jazz-tune-186783.mp3" fade="0.0" volume="-6.0"]
+	The work comes down to a lot of mind-numbing spreadsheet management, which is hands-off enough that whether intentionally or unintentionally, I end up spending this time killing time. Luckily, I felt I had a reason to be here today, so my usual lazy behavior will have some focus to it.
+	I'd been walking by a lot of people discussing strange rumours with a disturbed tone, and thought I'd use my multitasking skills to get some info on it.
+	label PhoneTree1
+	- The latest UA concert revealed this band’s DARKEST secrets | Spotted.com
+		It says here that whilst running a tour for their latest album, “Eclipse”, had another backstage scandal. I have to admit I'm out of touch with this sort of thing, I'd have to ask Hermes...
+		jump PhoneTree1
+	- The Moon is changing... | Semicredible.com
+		I think this is what I had been hearing about! They're saying that dozens of unrelated people have all spotted lines on the moon, reporting it to the police even in different countries and languages. And, umm...sheesh, is that a paywall a few words in?
+		jump PhoneTree1
+	- CrashCoin decreases its market share value by an indeterminate amount | TimeIsMoney.gov 
+		Isn’t this what my dad was spending their money on… Wait, indeterminate???
+		jump PhoneTree1
+	- Dawn of the night - Why alarm clocks are bad for your sl(TOKEN EXPIRED} | BotArticles.io
+		The internet is so filled with dead information these days, huh?
+		jump PhoneTree1
+	- All moon sightings: A megathread | Ç.com (formerly TreeTop)
+		A collection of blurry photographs of weird symbols covering the moon. This has about as much credible value as pocket lint.
+		jump PhoneTree1
+	- I'm done scrolling for now.
+	The internet is tiring; the mixture of scrolling and spreadsheet shuffling keeps my energy low, and my stress funneled. In that sense, the rumours I've been looking at haven't quite wormed their way into my brain yet, I'm too stuck in my feverish daydreams to think too hard about what's exactly in front of me.
+	Let's hope it doesn't hit too hard later on... But what I'm gathering is a handful of people saw something strange in the surface of the moon. Symbols? Letters? Numbers? Most people have interpreted it as some sort of doomsday message.
+	My shift ends, but I'm left to stumble around my own ideas as I walk on my way out.
+	[background arg="res://vn/backgrounds/day1/elevator.png" fade="0.0"]
+	[music fade="0.0" volume="0.0"]
+	I get on the elevator, and it's cramped with unfamiliar faces as usual. The differences in ages, demeanors, and the generally competitive nature of the building has made it hard for me to actually process any co-workers in particular.
+	The result is that the walls of the building have stayed memorized to an absolute minimum - the building being less of a corporeal place registered in my mind, and more of a playground for my idle daydreaming.
+	Now that I'm off work hours, I can at least use my phone without getting caught...
+	lotus: Hey.
+	[music path="res://vn/music/day1/night-in-rio-bossa-nova-173449.mp3" fade="0.0" volume="-6.0"]
+	hermes: loti!!!!!!! just got home from babysitting. wassup \:D
+	lotus: You're doing a lot of oddjobs these days, huh?
+	hermes: you gotta do what you gotta do right? just trying to get money whenever possible........but i wont stop myself from living\
+unlike SOMEONE i know
+	lotus: Lol....Hope that goes well, I should do the same. I've just been too indulgent recently. \
+Anyways, you hear about the rumours?
+	hermes: u think i hear a thing about gossip? and if i dont, how does a dweeb like you \:v
+	lotus: People have been saying that something is wrong with the sky. Like it's glitching out or something.
+	hermes: sounds like a lot of geeks with over-imagination issues\
+you sure you didn't make this up yourself
+	lotus: You dummy, this is serious... Lots of people are freaking out about it. The government has to have made a statement by now, right?
+	hermes: huh looking online a bit this DOES sound a little freaky\
+ill be sure to stay up tonight to get a look
+	lotus: Looking out tonight? Hmm, I'll leave that to you...talk to you some other time, Hermes.
+	hermes: heyyyy >\:w weren't we gonna plan to play brekken 8 online after work?!
+	[music fade="0.0" volume="0.0"]
+	Putting my phone away, because despite enjoying talking to Hermes a lot, I know my mind has been drifting elsewhere, constantly full with lulled daydreams I wanna release. Right now, it's time to return to the only place I know where I can make any of my dumb dreams come true\: my computer.
+	[background arg="res://vn/backgrounds/day1/vague.png" fade="0.5"]
+	After a while of biking home through lively streets, I manage to get home safely.
+	[music path="res://vn/music/day1/Over-a-Mysterious-Island.mp3" fade="0.0" volume="0.0"]
+	I put a burger I got yesterday into my microwave, and  After weeks of watching random tutorials on my phone while multi-tasking, and now with this looming feeling of strangeness, it only feels natural to distract myself by actually trying my hand at making a game this time.
+	[background arg="res://vn/backgrounds/day1/programming.png" fade="0.5"]
+	Sitting down, I'm worried those videos might have made this look too easy... Or maybe I'm just easily intimidated by walls of numbers and fancy terminology.
+	This should be good...\
+...Input error?! Just move, damnit, move!!
+	Agh, why does everything keep jittering?? Why's it so hard to move up in life....\
+…Interpolation ……What???
+	Alright. This took a *lot* more time than I thought it would, but the prototype is complete. At least I can move with the arrow keys now… I hope this is something. \
+...I hope this is anything.
+	set {gameplay} = true
+	do SceneManager.change_scene("res://minigames/common/main_minigame.tscn")
+	[end_timeline]
+insert gameplay here
+label gameplay1
+[background arg="res://vn/backgrounds/day1/darkness.png" fade="0.0"]
+[music path="res://vn/music/day1/Torment.mp3" fade="0.0" volume="0.0"]
+Ahhh... If nothing else, it's a start! After bug testing and bug testing just to get it working, I could almost cry from joy... It'll take a long time to start adding layer after layer, but I feel oddly satisfied with this. But it's gotten late now, I should go to bed...
+Ehhh....wasn't Hermes saying to check out the moon? I wasn't that curious myself, but maybe it's time to put an end to all my curiosity.
+[background arg="res://vn/backgrounds/day1/moon.png" fade="0.0"]
+label debug
+Ah.
+[music fade="0.0" volume="0.0"]
+[music path="res://vn/sfx/church-bell-5993.mp3" fade="0.0" volume="0.0"]
+[style name="chaptername"]
+~ DAY 2 ~\
+Motions of the Future
+[wait time="10.0" hide_text="false"]
+set {gameplay} = false
+jump day2_timeline/

@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://fsk204kpe8l6"]
+
+[ext_resource type="Script" path="res://minigames/common/spawner/powerup/minigame_powerup_spawner.gd" id="1_2265o"]
+[ext_resource type="PackedScene" uid="uid://bmd3gugif667k" path="res://minigames/common/powerup/minigame_power_up.tscn" id="2_uye1v"]
+
+[node name="MinigamePowerupSpawner" type="Node2D"]
+script = ExtResource("1_2265o")
+spawnable_scene = ExtResource("2_uye1v")

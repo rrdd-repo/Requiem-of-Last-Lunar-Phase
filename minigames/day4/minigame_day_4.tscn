@@ -1,0 +1,110 @@
+[gd_scene load_steps=13 format=3 uid="uid://b2f66e6gv2a5p"]
+
+[ext_resource type="Script" path="res://minigames/day4/minigame_day_4.gd" id="1_v0rmt"]
+[ext_resource type="Shader" path="res://shaders/main_minigame.gdshader" id="1_vckd2"]
+[ext_resource type="PackedScene" uid="uid://n6xoqb3465je" path="res://minigames/common/actor/player/minigame_player.tscn" id="1_yr882"]
+[ext_resource type="PackedScene" uid="uid://b1daq226hv3c6" path="res://minigames/common/actor/enemy/minigame_enemy.tscn" id="2_jxgf2"]
+[ext_resource type="PackedScene" uid="uid://cq6my12cndy0n" path="res://minigames/common/bullet/enemy/default/enemy_default_bullet.tscn" id="3_jgdkt"]
+[ext_resource type="PackedScene" uid="uid://uyeb0l3yidlj" path="res://minigames/common/bullet/player/default/player_default_bullet.tscn" id="3_ms27c"]
+[ext_resource type="PackedScene" uid="uid://c17bkql3x7krw" path="res://minigames/common/spawner/enemy/minigame_enemy_spawner.tscn" id="5_0uj32"]
+[ext_resource type="PackedScene" uid="uid://fsk204kpe8l6" path="res://minigames/common/spawner/powerup/minigame_powerup_spawner.tscn" id="7_sh64q"]
+[ext_resource type="AudioStream" uid="uid://c1xyo1lbq7b4s" path="res://minigames/day4/ost/one_broken_clock.ogg" id="9_nhpvd"]
+[ext_resource type="Texture2D" uid="uid://dm8t5tx2qxqqy" path="res://minigames/day4/background/bg3.png" id="10_bjcba"]
+[ext_resource type="Texture2D" uid="uid://drhiijk64istl" path="res://minigames/day4/background/bg1.png" id="10_ewqqp"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_n6ejt"]
+shader = ExtResource("1_vckd2")
+shader_parameter/resolution = Vector2(320, 180)
+shader_parameter/scan_line_amount = 1.0
+shader_parameter/warp_amount = 0.1
+shader_parameter/noise_amount = 0.03
+shader_parameter/interference_amount = 0.2
+shader_parameter/grille_amount = 0.05
+shader_parameter/grille_size = 1.0
+shader_parameter/vignette_amount = 0.6
+shader_parameter/vignette_intensity = 0.4
+shader_parameter/aberation_amount = 0.5
+shader_parameter/roll_line_amount = 0.0
+shader_parameter/roll_speed = 1.0
+shader_parameter/scan_line_strength = -8.0
+shader_parameter/pixel_strength = -2.0
+
+[node name="MinigameDay4" type="Node2D"]
+script = ExtResource("1_v0rmt")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ScoreLabel" type="Label" parent="CanvasLayer"]
+unique_name_in_owner = true
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -148.0
+offset_right = -68.9999
+offset_bottom = 23.0
+grow_horizontal = 2
+scale = Vector2(3.78095, 3.43514)
+text = "Score: 0"
+horizontal_alignment = 1
+
+[node name="TutorialLabel" type="Label" parent="CanvasLayer"]
+unique_name_in_owner = true
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -271.0
+offset_top = -36.0
+offset_right = -62.0
+offset_bottom = 39.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2.64, 2.64)
+text = "Move with Directional keys
+Shoot with Z
+Press R to Restart Game"
+horizontal_alignment = 1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+material = SubResource("ShaderMaterial_n6ejt")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MinigamePlayer" parent="." instance=ExtResource("1_yr882")]
+_current_bullet_scene = ExtResource("3_ms27c")
+
+[node name="Enemy" parent="." instance=ExtResource("2_jxgf2")]
+position = Vector2(676, 189)
+_default_bullet_scene = ExtResource("3_jgdkt")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="MinigameEnemySpanwer" parent="." instance=ExtResource("5_0uj32")]
+max_spawn_interval = 3.0
+map_bounds_min = Vector2(600, 300)
+map_bounds_max = Vector2(600, -300)
+
+[node name="MinigamePowerupSpawner" parent="." instance=ExtResource("7_sh64q")]
+min_spawn_interval = 3.0
+max_spawn_interval = 6.0
+map_bounds_min = Vector2(-600, 300)
+map_bounds_max = Vector2(400, -300)
+
+[node name="Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("9_nhpvd")
+autoplay = true
+bus = &"MinigameMusic"
+
+[node name="Backgrounds" type="Node2D" parent="."]
+
+[node name="PlanetBackground" type="Sprite2D" parent="Backgrounds"]
+z_index = -3
+texture = ExtResource("10_bjcba")
+
+[node name="StarBackground" type="Sprite2D" parent="Backgrounds"]
+z_index = -4
+texture = ExtResource("10_ewqqp")

@@ -1,0 +1,85 @@
+[gd_scene load_steps=7 format=3 uid="uid://b1daq226hv3c6"]
+
+[ext_resource type="Script" path="res://minigames/common/actor/enemy/minigame_enemy.gd" id="1_0d3jy"]
+[ext_resource type="Texture2D" uid="uid://bw33wtgma7gxt" path="res://minigames/common/sprite/enemy/enemy_ship.png" id="2_diwlx"]
+[ext_resource type="AudioStream" uid="uid://behw0jjtt7tq7" path="res://minigames/common/sfx/enemy/death_enemy.wav" id="2_gvjcs"]
+[ext_resource type="AudioStream" uid="uid://ca2t85vikrb2u" path="res://minigames/common/sfx/enemy/shoot_enemy.wav" id="3_6quby"]
+[ext_resource type="AudioStream" uid="uid://bq6k2onudbvk2" path="res://minigames/common/sfx/enemy/hit_enemy.wav" id="4_dd5tm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m3ot3"]
+radius = 40.0
+
+[node name="Enemy" type="CharacterBody2D"]
+collision_layer = 0
+collision_mask = 0
+script = ExtResource("1_0d3jy")
+_max_health = 15
+_speed = 60.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_m3ot3")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.66742, 0.33258)
+rotation = -1.5708
+scale = Vector2(2.32332, 2.32332)
+texture = ExtResource("2_diwlx")
+
+[node name="Hurtbox" type="Area2D" parent="."]
+collision_layer = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+shape = SubResource("CircleShape2D_m3ot3")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -29.0
+offset_right = 20.0
+offset_bottom = 29.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="EnemyHealthLabel" type="Label" parent="Control/CenterContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.793825, 0.00120577, 0.894092, 1)
+theme_override_font_sizes/font_size = 42
+horizontal_alignment = 1
+
+[node name="SFX" type="Node" parent="."]
+
+[node name="DeathSFX" type="AudioStreamPlayer2D" parent="SFX"]
+stream = ExtResource("2_gvjcs")
+bus = &"MinigameSFX"
+
+[node name="ShootSFX" type="AudioStreamPlayer2D" parent="SFX"]
+stream = ExtResource("3_6quby")
+volume_db = -3.0
+bus = &"MinigameSFX"
+
+[node name="HitSFX" type="AudioStreamPlayer2D" parent="SFX"]
+stream = ExtResource("4_dd5tm")
+bus = &"MinigameSFX"
+
+[connection signal="area_entered" from="Hurtbox" to="." method="_on_area_2d_area_entered"]
+[connection signal="finished" from="SFX/DeathSFX" to="." method="_on_death_sfx_finished"]
